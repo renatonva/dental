@@ -11,6 +11,8 @@ A pasta view/frontend/template e view/frontend/layout, contém respectivamente o
 
 Os arquivos xmls, catalog_category_view.xml e catalog_product_view.xml, fazem o reference block da área onde será exibido o conteúdo, para o template que está em view/frontend/template, fazendo assim o Override sem alteração no diretorio Vendor (caso de instalações via composer).
 
+Sobre o item citado acima, sei que poderia ter utilizado Block, porém, na circunstância atual optei apenas pelo Override.
+
 O por fim o arquivo registration na raiz do módulo.
 
 Após realizar o git pull origin (branch), certifique de executar  php bin/magento module:status, certifique após o comando que em modules disable esteja aparecendo Renato_ParcelasAttribute
